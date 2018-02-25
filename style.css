@@ -4,8 +4,9 @@ h1 {
 	font-size: 50px;
 }
 
-h2 {
+h2, li {
 	font-family: 'Playfair Display', serif;
+	font-size: 25px;
 }
 
 .subtitle {
@@ -13,7 +14,29 @@ h2 {
 	font-size: 30px;
 }
 
+p {
+	font-family: 'Inconsolata', monospace;
+	font-size:15px;
+}
+
+a {
+	text-decoration: none;
+	color: #02484c;
+	background-color: #fff999;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+#result {
+	width:60vw;
+	padding-top:20vw;
+	transform: rotate(90deg);
+}
+
 body {
 	margin:10vw;
-	overflow:hidden;
+	overflow-x:hidden;
 }
