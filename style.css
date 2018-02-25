@@ -31,9 +31,7 @@ a:hover {
 }
 
 #result {
-	width:60vw;
-	padding-top:20vw;
-	transform: rotate(90deg);
+	width:40vw;
 }
 
 body {
