@@ -14,7 +14,7 @@ h2, li {
 	font-size: 30px;
 }
 
-p {
+p, .notes {
 	font-family: 'Inconsolata', monospace;
 	font-size:15px;
 }
@@ -37,4 +37,8 @@ a:hover {
 body {
 	margin:10vw;
 	overflow-x:hidden;
+}
+
+::selection {
+  background: #c3c3db;
 }
