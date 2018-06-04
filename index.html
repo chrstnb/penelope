@@ -25,11 +25,46 @@
 		<li class="notes"><p>I in no way deny that I benefit from the power imbalance as a straight cis white woman; patriarchal constructs are even more harmful to people of color and those who don't identify with traditional views of sexual or gender identity. I understand that my experience as a white woman is not the same as that of many others who identify as women; I hope to identify injustices that show up in data being presented wherever I can.</p></li>
 	</ol>
 
+	<hr>
+	<h1 class="project">Project 2: Meditation on Translation</h1>
 	<h1 class="subtitle">Process</h1>
 	<ol>
 		<li>
 			<h2>Data</h2>
-			<a href="/trakl/amen_binary.txt">binary</a>
+			<p>I knew I wanted to use something from <a href="https://www.uglyducklingpresse.org/catalog/browse/item/?pubID=142" target="_blank">Christian Hawkey's <i>Ventrakl</i></a>, a truly beautiful exploration of translation and the holes that form across languages, time, and space. Loss is a central theme and something I think about often, both in terms of the grand scheme of life/love/loss, but recently also in the realm of networking. I took a systems computer science course this quarter and it brought me to think even more about computer networking and the way things are communicated.</p>
+			<p>One of the most striking parallels I encountered was between Hawkey's comments on the danger of automatic/sterile translation and the sending of bits from one place to another. We assume that photographs, videos, and all of the other ways we document our world suffice in communicating our experiences from one person or place or time to another. We assume that in taking videos of a concert we've preserved the joy we felt in the midst of it, but even if every bit recorded by our camera is saved for as long as we're around, there's so much lost in that translation.</p>
+			<p>I landed on encoding one of the poems in <i>Ventrakl</i> in binary to be weaved. Choosing a poem proved trickier than expected because of limitations in terms of length, but I landed on <a href="trakl/amen.txt" target="_blank">Hawkey's translation</a> of <a href="https://books.google.com/books?id=5H3tBQAAQBAJ&pg=PT62&lpg=PT62&dq=amen+georg+trakl&source=bl&ots=eiKHKgVAmO&sig=DsHzAPg9w-J9Sil7LswPJHGUwpU&hl=en&sa=X&ved=0ahUKEwj7xvH--LjbAhXrh1QKHVqkAwEQ6AEIQDAE#v=onepage&q=amen%20georg%20trakl&f=false" target="_blank">Trakl's <i>Amen</i></a> (originally in German). The poem is odd and dark and doesn't make a ton of sense outside of the context of the work as a whole, but that's something I appreciate about it. Hawkey uses a variety of translation techniques (including shooting a poem with a handgun), so it's not necessarily meant to make lots of sense. The <a href="trakl/amen_binary.txt" target="_blank">binary encoding of it</a> makes even less sense, but opens up a lot to explore in terms of the reliability of a very direct translation.</p>
+		</li>
+		<li>
+			<h2>Weaving</h2>
+			<p>I chose to use black stitches to represent 0s and purple to represent 1s.</p>
+		</li>
+		<li>
+			<h2>Result</h2>
+			<img src="trakl/binary.png" id="result" alt="a woven binary encoding of a poem">
+		</li>
+	</ol>
+	<h1 class="subtitle">Remnants</h1>
+	<ol>
+		<li>
+			<h2>Trusting translation</h2>
+			<p>The vast majority of my favorite works were written first in other languages (see <a href="https://en.wikipedia.org/wiki/The_Man_Without_Qualities" target="_blank">Musil</a>, <a href="https://en.wikipedia.org/wiki/Roland_Barthes" target="_blank">Barthes</a>, others...). Hawkey amplifies the questions of attribution of beauty, thought and intention when reading translated works. At an even more essential level, he points out that even independent of translations across languages, our unique ways of understanding the world as individuals make it nearly impossible for the thoughts I communicate via language to ever be understood by another person in the same way I do.</p>
+			<p>Binary seems a logical, sterile means of sharing information, but when language itself is already unreliable, it doesn't really matter what form it comes in as holes will inevitably form.</p>
+		</li>
+		<li>
+			<h2>The illusion of preservation</h2>
+			<p>As I mentioned, <i>Ventrakl</i> brought me to think about the things we capture digitally every day, probably hoping to prolong moments in time, relationships, thoughts, or experiences. While most of us don't tweet in binary, this project helped me realize that much of what we think we share or preserve only encompasses a very small part of what we intend. Even videos fail to capture the crispness of the air or the smell of spring, and I fear that we're fooling ourselves into believing we're prolonging lived experiences without ever really getting to live them.</p>
+			<p>This poem, even though the binary encoding is an accurate translation of the English version and the textile can withstand quite a lot of time, is absolutely meaningless in this form. Even though it's an extreme, this project brought an understanding of the importance of context that can never be captured.</p>
+		</li>
+	</ol>
+
+	<hr>
+	<h1 class="project">Project 1: Visualizing US Maternal Mortality Count</h1>
+
+	<h1 class="subtitle">Process</h1>
+	<ol>
+		<li>
+			<h2>Data</h2>
 			<p>Initially, I wanted to use a dataset showing problems in the entertainment industry, especially in the context of the presentation of women and their roles in epic stories, however my mind kept returning to <a href="https://www.npr.org/2017/05/12/527806002/focus-on-infants-during-childbirth-leaves-u-s-moms-in-danger" target="_blank">something I'd read in NPR</a> and the slew of things it made me think about (more on that below). I had also considered doing an analysis of words spoken by women in the 2000 adaptation of <em>The Odyssey</em>, <a href="http://www.imdb.com/title/tt0190590/" target="_blank">O Brother, Where Art Thou?</a>, only to realize that there's only one speaking female character :(</p>
 			<p>When trying to sort through exactly what the data would look like, I felt compelled to find data that would be simple enough to visualize given a certain degree of uncertainty in terms of how much room I'd have to work with and what the meaning would be. As I looked at <a href="http://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(16)31470-2.pdf" target="_blank">the data on maternal mortality</a>, I was intrigued to consider the way that NPR had presented the data, in a chart highlighting that with 26.4 deaths per 100,000 live births, the US had at least three times as many deaths as any other "developed" country (more thoughts on this later as well). I did the math to see if it might be an interesting percentage to visualize, and realized that visualizing .0264% would make the data seem insignificant.</p>
 			<p>Although I understood that the way NPR presented the data (which, I should mention, fell alongside a very human story about the impact of the numbers), the reduction implied that there wasn't value to the fact that approximately 1,063 women died of complications from childbirth in 2015. Although those numbers aren't nearly as staggering as some, thinking about the stories behind the data was evocative.</p>
@@ -40,7 +75,7 @@
 		</li>
 		<li>
 			<h2>Result</h2>
-			<img src="result.png" id="result">
+			<img src="result.png" id="result" alt="a woven visualization of the number of women who died during childbirth in the US in a year">
 		</li>
 	</ol>
 	<h1 class="subtitle">Remnants</h1>
@@ -59,10 +94,30 @@
 			<p>This runs the risk of becoming long and rambly, but in weaving this visualization I was able to meditate on the balance between engaging in traditionally feminine things while also maintaining my independence and existence in a field like computer science. I thought about the way that women always get asked about work/life-balance in interviews. I thought about feminism and the idea that it's a lot of different things to a lot of different people. I thought about the fact that so many women have created other humans to ensure humanity persists and how freaking great that is, but especially about how heart-wrenching the stories behind these numbers are. I thought about the fact that there are so many devastating things happening all over the world. I thought about the fact that there are people who identify as women who will never be able to or choose to have children, and how they are still as much of a woman as anyone else.</p>
 		</li>
 	</ol>
+
+	<hr>
+
+	<h1 class="subtitle">Next</h1>
+	<ol>
+		<li>
+			<h2>Data to visualize</h2>
+			<p>I'd really like to do something with this data, which I think would work well as a sort of timeline:</p>
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">How much do women speak in <a href="https://twitter.com/hashtag/Oscar?src=hash&amp;ref_src=twsrc%5Etfw">#Oscar</a> films? Find out in this week&#39;s More or Less on Women, the Oscars and the Bechdel Test: <a href="https://t.co/JNpyoUx2Lt">https://t.co/JNpyoUx2Lt</a> 📻 <a href="https://twitter.com/hashtag/100Women?src=hash&amp;ref_src=twsrc%5Etfw">#100Women</a> <a href="https://t.co/gaTlBxaKqR">pic.twitter.com/gaTlBxaKqR</a></p>&mdash; BBC 100 Women (@BBC100women) <a href="https://twitter.com/BBC100women/status/970668501743685632?ref_src=twsrc%5Etfw">March 5, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</li>
+		<li>
+			<h2>Project goals</h2>
+			<p>Beyond more datasets, I'd really like to have this work shown in a place like the new computer science building,
+				where it could get viewers thinking about the lines we draw surrounding femininity, data, and the stories behind it,
+				especially as it relates to women in computer science, technology, and the larger realm of STEM. I've thought a
+				lot recently about what it means to be a "woman in tech" and sometimes I just want to be in tech, but I also want
+				to be valued for who I am and what I have to offer. I hope this project might lead people to think about that.</p>
+		</li>
+	</ol>
+
 	<h1>...</h1>
 </body>
 </html>
-
 
 
 

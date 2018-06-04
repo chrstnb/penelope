@@ -4,6 +4,13 @@ h1 {
 	font-size: 50px;
 }
 
+.project {
+	font-family: 'Playfair Display', serif;
+	text-align: left;
+	font-size: 40px;
+}
+
+
 h2, li {
 	font-family: 'Playfair Display', serif;
 	font-size: 25px;
@@ -41,4 +48,8 @@ body {
 
 ::selection {
   background: #c3c3db;
+}
+
+hr {
+	margin-top:50px;
 }
